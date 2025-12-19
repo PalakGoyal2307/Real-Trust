@@ -1,0 +1,36 @@
+import mongoose from "mongoose";
+import bcrypt from "bcryptjs";
+import dotenv from "dotenv";
+import Admin from "./models/Admin.js";
+
+dotenv.config();
+
+const createAdmin = async () => {
+  try {
+    await mongoose.connect(process.env.MONGO_URI);
+
+    const email = "admin@example.com";
+    const password = "admin123";
+
+    const existingAdmin = await Admin.findOne({ email });
+    if (existingAdmin) {
+      console.log("Admin already exists");
+      process.exit();
+    }
+
+    const hashedPassword = await bcrypt.hash(password, 10);
+
+    await Admin.create({
+      email,
+      password: hashedPassword,
+    });
+
+    console.log("✅ Admin user created successfully");
+    process.exit();
+  } catch (error) {
+    console.error("❌ Error creating admin:", error.message);
+    process.exit(1);
+  }
+};
+
+createAdmin();
