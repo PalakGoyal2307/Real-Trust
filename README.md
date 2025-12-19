@@ -153,6 +153,15 @@ Clean and user-friendly UI
 
 <img width="1892" height="905" alt="image" src="https://github.com/user-attachments/assets/870b99ef-9819-4778-b728-9a6b47003ac7" />
 
+## Database
+
+<img width="1897" height="902" alt="image" src="https://github.com/user-attachments/assets/994d8ebd-a03f-43a7-9801-d0261378283c" />
+
+<img width="1902" height="897" alt="image" src="https://github.com/user-attachments/assets/597cb13f-7ea5-4087-94c7-8f85c73449a6" />
+
+<img width="1907" height="897" alt="image" src="https://github.com/user-attachments/assets/53cc9b91-ea32-4930-a7ee-f0f88cd9d422" />
+
+<img width="1910" height="891" alt="image" src="https://github.com/user-attachments/assets/2651f450-69d9-4077-94fb-a773946537e5" />
 
 ---
 
