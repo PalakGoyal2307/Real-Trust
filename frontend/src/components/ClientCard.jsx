@@ -14,7 +14,7 @@ function ClientCard({ client }) {
                      blur transition"
         />
         <img
-          src={`http://localhost:5000/${client.image}`}
+          src={`${import.meta.env.VITE_API_URL}/${client.image}`}
           alt={client.name}
           className="relative h-24 w-24 rounded-full object-cover
                      ring-4 ring-white

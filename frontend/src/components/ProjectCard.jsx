@@ -8,7 +8,7 @@ function ProjectCard({ project }) {
       {/* IMAGE */}
       <div className="overflow-hidden">
         <img
-          src={`http://localhost:5000/${project.image}`}
+          src={`${import.meta.env.VITE_API_URL}/${project.image}`}
           alt={project.name}
           className="h-48 w-full object-cover
                      group-hover:scale-110
