@@ -8,7 +8,7 @@ function ProjectCard({ project }) {
       {/* IMAGE */}
       <div className="overflow-hidden">
         <img
-          src={`${import.meta.env.https://real-trust-backend.onrender.com/}/${project.image}`}
+          src={`https://real-trust-backend.onrender.com/${project.image}`}
           alt={project.name}
           className="h-48 w-full object-cover
                      group-hover:scale-110

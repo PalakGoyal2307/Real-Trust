@@ -14,7 +14,7 @@ function ClientCard({ client }) {
                      blur transition"
         />
         <img
-          src={`${import.meta.env.https://real-trust-backend.onrender.com/}/${client.image}`}
+          src={`https://real-trust-backend.onrender.com/${client.image}`}
           alt={client.name}
           className="relative h-24 w-24 rounded-full object-cover
                      ring-4 ring-white
